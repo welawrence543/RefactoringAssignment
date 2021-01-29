@@ -3,7 +3,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-
     public class InsuranceCalculatorTest {
         @Test
         public void low() {
@@ -29,4 +28,3 @@ import static org.junit.Assert.*;
             return new InsuranceCalculator().calculateInsurance(income);
         }
     }
-
